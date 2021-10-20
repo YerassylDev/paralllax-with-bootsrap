@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header div:first-child{
+	height: 40px;
+	background-color: #E03A33;
+}
+
+header img{
+	width: 15%;
+	margin: 10px 0 10px 20px;
+}
+
+header div:nth-child{
+
+	background-color: #EEEEEE;
+}
+
+/*header div:last-child{
+	height: 40px;
+	background-color: #000;
+	padding: 0 25% 0 25%;
+}
+
+header ul li{
+	display: inline-block;
+	width: 24%;
+	float: left;
+	background-color: #949599;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-left: 1px solid #666666;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: #fff;
+	overflow: auto;
+}*/
+
+.active{
+	background-color: #666666 !important;
+}
+
+header div div div p a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+/*---------------------------------------------*/
+
+#slogan{
+	height: 80px;
+	background-color: #444444;
+	text-align: center;
+	line-height: 80px;
+	color: #CCCCC4;
+	font-size: 25px;
+}
+
+#slogan div{
+	height: 2px;
+	background-color: #565656;
+}
+
+
+footer div:nth-child(2){
+	padding: 0 25% 0 25%;
+	background-color: #111111;
+	height: 300px;
+	padding-top: 30px;
+	display: block;
+}
+
+
+footer ul li:nth-child(odd){
+
+	padding: 10px;
+}
+
+footer ul li{
+	float: left;
+	width: 20%;
+	display: inline-block;
+	color: #888984;
+}
+
+footer ul{
+	display: flex;
+}
+
+footer ul li:nth-child(even){
+	width: 1px;
+	height: 150px;
+	background-color: #888984;
+}
+
+footer ul li a{
+	color: #888984;
+}
+
+footer ul li h3{
+	color: #A8AAA9;
+}
+
+footer div:nth-child(3){
+	color: #545452;
+	background-color: #111111;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/*-----------------------------------------*/
+
+
+main{
+	background-color: #333333;
+	padding: 0 20% 0 20%;
+	color: white;
+}
+
+main img:first-child{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.components{
+	/*height: 400px;*/
+	background-color: #444444;
+	display: flex;
+	padding: 5%;
+	margin-bottom: 20px;
+}
+
+.components:last-child{
+	margin: 0;
+}
+
+.components div:first-child{
+	width: 70%;
+}
+
+.components div:last-child{
+	width: 30%;
+}
+
+.components div:last-child img{
+	width: 70%;
+	float: right;
+	margin: 20% 0 20% 0;
+}
+
+.components div a{
+	color: white;
+}
